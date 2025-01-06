@@ -1,0 +1,25 @@
+{
+	"name": "CustomerCSV_DS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Customer.csv",
+				"folderPath": "myserversuresh/new/customer/year=2023/month=12/day=31",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

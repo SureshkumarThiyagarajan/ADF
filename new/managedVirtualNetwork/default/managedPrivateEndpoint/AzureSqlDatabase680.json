@@ -1,0 +1,10 @@
+{
+	"name": "AzureSqlDatabase680",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/aec18adb-ca0b-4c32-907e-05a558844643/resourceGroups/ST_Azure_certification/providers/Microsoft.Sql/servers/myserversuresh",
+		"groupId": "sqlServer",
+		"fqdns": [
+			"myserversuresh.database.windows.net"
+		]
+	}
+}
